@@ -1,0 +1,250 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Largest Devices, Wide Screens */
+@media only screen and (max-width : 1320px) {
+
+h3.near-titles:before {
+	background: none;
+}
+
+.main-header .presentation {	
+	background-position: 105% 90%;
+}
+
+.services {
+	background-position: 107% 90%;
+} 
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+.main-header .left-side {
+	padding-left: 89px;
+}
+
+.top-panel .right-side ul.main-nav a {	
+	margin-right: 20px;
+}
+
+.top-panel .right-side .phone {
+	margin-right: 30px;
+}
+
+.top-panel .right-side .phone {
+	padding-left: 30px;
+	margin-left: 10px;
+}
+
+.top-panel .right-side .main-btn {
+	padding-right: 30px;
+	padding-left: 30px;	
+}
+
+.main-header .presentation {	
+	background-position: 105% 80%;
+}
+
+.services {
+	background-position: 107% 80%;
+}  
+
+.statistics {
+	background-size: 30%;
+}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+.main-header .top-panel {
+	height: 70px;
+}
+
+.main-header .top-panel .right-side {
+	display: none;
+}
+
+.main-header .hamburger-menu {
+	display: block;
+}
+
+.main-header .hamburger-menu .menu-btn {
+	z-index: 100;
+	position: fixed;
+	top: 15px;
+	right: 30px;	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
+	background-color: #FB7DA4;
+	background-image: linear-gradient(to right, #FBA9A2, #FB7DA4);
+	border-radius: 50%;
+  overflow: hidden;
+  font-size: 0;
+}
+
+.main-header .hamburger-menu .menu-btn::before,
+.main-header .hamburger-menu .menu-btn::after {
+	content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	transition: .3s;
+	display: inline-block;
+	width: 16px;
+	height: 2px;
+	background-color: #fff;
+	box-shadow: 0 -5px #fff, 0 5px #fff;
+}
+
+.main-header .hamburger-menu .menu-btn-active::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+  box-shadow: none;
+}
+
+.main-header .hamburger-menu .menu-btn-active::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+  box-shadow: none;
+}
+
+.main-header .hamburger-menu .links-menu {
+	z-index: 50;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	position: fixed;
+	top: -100%;
+	transition: .5s;
+	width: 100vw;
+	height: 75vh;
+	background-color: #fff;
+	box-shadow: inset 0 -2px 0 0 #DCE9F5;
+	overflow-y: auto;
+}
+
+.main-header .hamburger-menu .links-menu-active {
+	top: 70px;
+}
+
+.main-header .hamburger-menu .links-menu .nav-point {
+	padding: 21px;
+	font-weight: 700;	
+	font-size: 1.6rem;
+	text-transform: uppercase;
+	color: #455F87;
+}
+
+.main-header .hamburger-menu .links-menu .nav-point:hover {
+	color: #FB7DA4;
+}
+
+.main-header .presentation {
+	background: #E7F3FE;
+	padding-top: 70px;
+}
+
+.services {
+	background: #FEF4F3;
+}
+
+.statistics {
+	background-position: 50% 70%;
+	background-size: 45%;
+}
+
+.statistics .under-title {
+	margin-bottom: 50px;
+}
+
+.statistics .row-flex {
+	display: block;
+}
+
+.blog .first-type {
+	margin-bottom: 30px;
+}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+.presentation, .services, .statistics, .main-video, .blog, .footer {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.statistics {
+	background-size: 90%;
+}
+
+.statistics	.first-stat {
+		margin-bottom: 30px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+.presentation button {
+	min-width: calc(100%/2 - 15px);
+	margin-right: 0;
+}
+
+.presentation button.second-btn {
+	margin-top: 30px;
+}
+
+.footer {
+	height: 120px;
+}
+
+.footer ul.main-nav {
+	display: none;
+}
+
+.footer h1 {
+	line-height: 120px;
+}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
