@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?suo0t9');
+  src:  url('../fonts/icomoon.eot?suo0t9#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?suo0t9') format('truetype'),
+    url('../fonts/icomoon.woff?suo0t9') format('woff'),
+    url('../fonts/icomoon.svg?suo0t9#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-iconmonstr-check-mark-2:before {
+  content: "\e900";
+}
+.icon-iconmonstr-menu-7:before {
+  content: "\e901";
+}
+.icon-iconmonstr-phone-1:before {
+  content: "\e902";
+}
+.icon-iconmonstr-plus-2:before {
+  content: "\e903";
+}
+.icon-iconmonstr-x-mark-9:before {
+  content: "\e904";
+}
+
+.icon-iconmonstr-check-mark-2:before,
+.icon-iconmonstr-menu-7:before,
+.icon-iconmonstr-phone-1:before,
+.icon-iconmonstr-plus-2:before,
+.icon-iconmonstr-x-mark-9:before {
+  position: absolute;
+}
+
+.icon-iconmonstr-check-mark-2:before {
+  color: #55E4C1;
+  right: 4px;
+}
+
+.icon-iconmonstr-check-mark-2:hover:before {
+  color: #98A0A6;
+  content: "\e904";
+  font-size: 11px;
+  right: 6px;
+  top: 2px;
+}
+
+.icon-iconmonstr-plus-2:before {
+  color: #1FADFB;
+  font-size: 10px;
+  left: 50%;
+  transform: translatex(-50%);
+  top: 7px;
+}
+
+.icon-iconmonstr-plus-2:hover:before {
+  color: #fff;
+}
+
+.icon-iconmonstr-menu-7:before {
+  color: #98A0A6;
+  right: 4px;
+  top: 14px;
+}
+
+.icon-iconmonstr-menu-7:hover:before {
+  color: #55E4C1;
+}
+
+.main-button.icon-iconmonstr-plus-2:before {
+  color: #fff;
+  font-size: 12px;
+  left: 25px;
+  top: 24px;
+  transition-duration: 0.1s;
+}
+
+.main-button.icon-iconmonstr-plus-2:hover:before {
+  transform: scale(1.2);
+  left: 19px;
+}
+
+.icon-iconmonstr-phone-1:before {
+  right: 6px;
+  color: #A577FB;
+}
+
+
+
+
+

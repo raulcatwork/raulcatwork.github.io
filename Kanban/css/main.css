@@ -1,0 +1,270 @@
+body {
+	font-family: 'Roboto', sans-serif;
+  background-color: #F5F8FC;
+}
+
+p, button, li, a, h3 {	
+	font-size: 1.4rem;
+}
+
+.container, .sidebar, .with-title, .for-title, .for-columns, .for-title h2, 
+.three-columns, .widget, .profession-name, .container .content-widget, .workers {
+	display: flex;
+}
+
+.sidebar,
+.container .column,
+.for-title h2,
+.header-widget p:last-child {
+	flex-grow: 1;
+}
+
+.three-columns {
+	flex-grow: 3;
+	margin-top: 102px;
+}
+
+.for-columns {
+	margin-top: 37px;
+}
+
+.header-widget h3 {
+	flex-grow: 3;
+}
+
+.with-title, .container .content-widget, .workers {
+	flex-direction: column;
+}
+
+.for-title h2 {
+	font-size: 2rem;
+	justify-content: center;
+	padding-right: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 41px;
+}
+
+.sidebar {
+	flex-direction: column;
+	margin-right: 20px;
+	background-color: #fff;
+	min-height: 100vh;
+	box-shadow: inset -1px 0 0 #DBE8F7;	
+}
+
+.sidebar .main-button {
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	background-color: #1FADFB;
+	min-height: 60px;
+	color: #fff;
+	border: none;
+	border-radius: 0;
+	width: 100%;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.4rem;
+  margin-bottom: 42px;
+  transition-duration: 0.2s;
+}
+
+.sidebar .main-button:hover {
+	background-color: #A577FB;
+}
+
+.sidebar .column {
+	margin-left: 20px;
+}
+
+.container .column {
+	margin-right: 20px;
+}
+
+.widget {
+	background-color: #fff;
+	border: 1px solid #DBE8F7;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 16px;
+  box-shadow: 0 3px 0 #DBE8F7;  
+  align-items: center;
+  width: calc((100vw - 160px)/6);
+  min-width: 200px;
+}
+
+.header-widget {	
+  height: 54px;
+}
+
+.sidebar .header-widget {
+  box-shadow: 0 3px 0 #DBE8F7,
+              0 -3px 0 #FF4813;
+}
+
+.first .header-widget {
+	box-shadow: 0 3px 0 #DBE8F7,
+              0 -3px 0 #55E4C1;
+}
+
+.second .header-widget {
+	box-shadow: 0 3px 0 #DBE8F7,
+              0 -3px 0 #1FADFB;
+}
+
+.third .header-widget {
+	box-shadow: 0 3px 0 #DBE8F7,
+              0 -3px 0 #F31D86;
+}
+
+.fourth .header-widget {
+	box-shadow: 0 3px 0 #DBE8F7,
+              0 -3px 0 #FCCC2E;
+}
+
+.fifth .header-widget {
+	box-shadow: 0 3px 0 #DBE8F7,
+              0 -3px 0 #A577FB;
+}
+
+.header-widget h3 {
+  font-size: 1.5rem;
+  color: #1B2437; 
+	font-weight: bold;
+}
+
+.header-widget p:last-child {
+  text-align: right;
+  color: #98A0A6;
+}
+
+.content-widget {
+	margin-top: 20px;
+	padding-bottom: 20px;
+	align-items: flex-start;
+}
+
+.content-widget:last-child {
+	margin-bottom: 20px;
+}
+
+.additional-nav {
+	position: relative;
+	width: 100%;
+	border: none;
+}
+
+.profession-name {
+	align-items: center;
+	margin-top: 32px;
+}
+
+.profession-name h3 {
+	text-transform: uppercase;
+	line-height: 20px;
+	font-size: 1.4rem;
+}
+
+.profession-name .managers {
+	background-color: #DBE8F7;
+	min-width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	margin-right: 14px;
+}
+
+.profession-name .managers.orange {
+	background-image: url(../img/orange.png);
+}
+
+.profession-name .managers.green {
+	background-image: url(../img/green.png);
+}
+
+.profession-name .managers.pink {
+	background-image: url(../img/pink.png);
+}
+
+.profession-name .managers.blue {
+	background-image: url(../img/blue.png);
+}
+
+.profession-name .managers.purple {
+	background-image: url(../img/purple.png);
+}
+
+.profession-name .managers.red {
+	background-image: url(../img/red.png);
+}
+
+ul {
+	margin-left: 0; /* Отступ слева в браузере IE и Opera */
+  padding-left: 0;
+  margin-right: 20px;
+  padding-right: 0;
+  margin-top: 13px;
+  width: 100%;
+}
+
+ul.main-tasks {
+	margin-bottom: 17px;
+}
+
+li {
+	color: #98A0A6;
+	list-style-type: none;
+	margin-top: 14px;
+}
+
+li a {
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+	color: #98A0A6;
+	width: 100%;
+}
+
+li a:hover {
+	color: #FF4813;
+}
+
+.add-plus {
+	position: relative;
+	margin-top: 17px;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;	
+	border-color: #DBE8F7;
+}
+
+.add-plus:hover {
+	background-color: #55E4C1;
+	border: none;
+}
+
+.workers h3 {	
+	margin-bottom: 4px;
+}
+
+.workers p {
+	color: #98A0A6;
+}
+
+li.phone-number {
+	position: relative;
+	color: #1B2437;
+}
+
+.worker-info a {
+	text-decoration: underline;
+	color: #1FADFB;
+}
+
+.worker-info a:hover {
+	color: #55E4C1;
+}
+
+
+
+
